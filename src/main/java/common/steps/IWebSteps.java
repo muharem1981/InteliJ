@@ -5,10 +5,8 @@ import cucumber.api.java.en.Given;
 import org.junit.Assert;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import products.AllFrames;
 import products.AllProducts;
-
-import static selenium.steps.WebSteps.*;
+import static common.selenium.steps.WebSteps.*;
 
 
 public class IWebSteps {
@@ -21,13 +19,13 @@ public class IWebSteps {
     public static void IStopTheWebDriver()
     {AssertExecutedStep(StopWebDriver());}
 
-    @Given("^I navigate to the  \"([^\"]*)\" page")
-    public static void INavigateToTheHomePage(String driver)
-    {AssertExecutedStep(NavigateToHomePage(System.getProperty("currentURL"),AllFrames.getFrameSelector("Home"),""));}
+    @Given("^I navigate to the Home page")
+    public static void INavigateToTheHomePage()
+    {AssertExecutedStep(NavigateToHomePage(System.getProperty("currentURL")));}
 
     @Given("^I am on the \"([^\"]*)\" page")
     public static void IAmOnThePage(String pageName)
-    {AssertExecutedStep(OnPage(pageName,AllFrames.getFrameSelector("Home"),""));}
+    {AssertExecutedStep(OnThePage(pageName));}
 
     @Given("^I switch to the \"([^\"]*)\" window$")
     public static void ISwitchToTheWindow(int windowNumber)
@@ -51,7 +49,7 @@ public class IWebSteps {
     public static void ICheckDownloads(String expectedFileName)
     {AssertExecutedStep(CheckDownloads(expectedFileName));}
 
-    @Given("^I select the \"([^\"]*)\" \"([^\"]*)\" from the  \"([^\"]*)\" dropdown$")
+    @Given("^I select the \"([^\"]*)\" \"([^\"]*)\" from the \"([^\"]*)\" dropdown$")
     public static void ISelectFromDropDownBy(String text, String attribute, String elementName)
     {VerifyExecutedStep(waitToAppear(AllProducts.getElementSelector(elementName)) +"\n"+ "Visibility of element " + elementName + " with selector " + AllProducts.getElementSelector(elementName));
         AssertExecutedStep(SelectFromDropDownBy(text,attribute,elementName,AllProducts.getElementSelector(elementName)));}
@@ -94,7 +92,7 @@ public class IWebSteps {
     {VerifyExecutedStep(waitToAppear(AllProducts.getElementSelector(datePickerName)) +"\n"+ "Visibility of element " + datePickerName + " with selector " + AllProducts.getElementSelector(datePickerName));
         AssertExecutedStep(SelectDateInDatePicker(date,datePickerName,AllProducts.getElementSelector(datePickerName),AllProducts.getElementSelector("day_selector"),AllProducts.getElementSelector("done_button")));}
 
-    @Given("^I \"([^\"]*)\" \"([^\"]*)\" into the  \"([^\"]*)\" element$")
+    @Given("^I \"([^\"]*)\" \"([^\"]*)\" into the \"([^\"]*)\" element$")
     public static void IIntoTheElement(String act, String entry, String elementName)
     { VerifyExecutedStep(waitToAppear(AllProducts.getElementSelector(elementName)) +"\n"+ "Visibility of element " + elementName + " with selector " + AllProducts.getElementSelector(elementName));
         AssertExecutedStep(IntoTheElement(act,entry, elementName, AllProducts.getElementSelector(elementName)));}
@@ -125,7 +123,7 @@ public class IWebSteps {
         AssertExecutedStep(TakeScreenShot(System.getProperty("ReportPath") + "/" + fileName));
     }
 
-    @Given("^I wait  \"([^\"]*)\" sec/s$")
+    @Given("^I wait \"([^\"]*)\" sec/s$")
     public static void IWaitSomeSec(int wait, String waitFor)
     {AssertExecutedStep(WaitSomeSec(wait,waitFor));}
 

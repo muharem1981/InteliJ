@@ -1,8 +1,5 @@
 package products;
 
-import products.YouTube.Pages.HomePage;
-import products.YouTube.Pages.SearchPage;
-
 public class AllPages {
 
     public static String getYouTubeElementSelector(String elementName)

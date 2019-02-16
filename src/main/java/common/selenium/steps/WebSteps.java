@@ -1,8 +1,8 @@
-package selenium.steps;
+package common.selenium.steps;
 
-import selenium.methods.WebHelp;
-import util.DataHelp;
-import util.FileHelp;
+import common.selenium.methods.WebHelp;
+import common.util.DataHelp;
+import common.util.FileHelp;
 
 public class WebSteps extends WebHelp {
 
@@ -14,15 +14,15 @@ public class WebSteps extends WebHelp {
         return stopWebDriver() +" : "+ "I stop the Webdriver with the browser" +"\n";
     }
 
-    public static String NavigateToHomePage(String pageName, String frameSelectorHome, String frameSelector) {
-        String result = navigateTo(System.getProperty("currentURL")) +" : "+ "I navigate to the " + System.getProperty("currentURL") + " URL" +"\n";
-        return  result + OnPage(pageName, frameSelectorHome, frameSelector);
+    public static String NavigateToHomePage(String pageName) {
+        String result = OnThePage(pageName);
+        return navigateTo(System.getProperty("currentURL")) +" : "+ "I navigate to the " + System.getProperty("currentURL") + " URL" +"\n";
     }
 
-    public static String OnPage(String pageName, String frameSelectorHome, String frameSelector) {
+    public static String OnThePage(String pageName) {
         System.setProperty("currentPage", pageName);
-        return switchToFrameInFrame(frameSelectorHome, frameSelector) +" : "+ "I switch to the " + pageName + " page frame" +"\n";
-    }
+        return "PASS";
+        }
 
     public static String SwitchToWindow(int windowNumber) {
         return switchToWindow(windowNumber)  +" : "+ "I switch to the " + windowNumber + " window" +"\n";

@@ -3,10 +3,13 @@ package common.setup;
 import cucumber.api.Scenario;
 import cucumber.api.java.Before;
 import cucumber.api.java.After;
+import products.AllProducts;
+import products.AllURLs;
+
 import org.joda.time.DateTime;
 
 import static common.steps.IWebSteps.*;
-import static util.DataHelp.getTimeStamp;
+import static common.util.DataHelp.getTimeStamp;
 
 public class RunnerHooks {
 
@@ -17,6 +20,11 @@ public class RunnerHooks {
     @Before
     public void setup(Scenario scenario) throws Exception
     {
+        // local use, comment before push
+        System.setProperty("runDriver","chrome");
+        System.setProperty("seleniumGrid","local");
+        System.setProperty("runEnvironment","QA");
+
         this.scenario = scenario;
 
         if(wantsToQuit)
@@ -36,6 +44,8 @@ public class RunnerHooks {
         System.out.println("Product Tests Starts \n");
         System.out.println("************************************************************************************\n");
         System.out.println("Scenario : " + myScenario + "\n");
+        System.setProperty("currentURL", AllURLs.getProductURL());
+        System.out.println("CurrentURL : " + System.getProperty("currentURL") + "\n");
         System.out.println("************************************************************************************\n");
 
         System.out.println("ProjectPath : " + System.getProperty("projectPath") + "\n");
@@ -48,6 +58,7 @@ public class RunnerHooks {
         System.out.println("************************************************************************************\n");
 
         IStartTheWebDriver(System.getProperty("runDriver"));
+
 
     }
 

@@ -11,7 +11,7 @@ import java.io.File;
 @CucumberOptions
         (
             features = {"src/test/features"},
-            glue = {"clsspath:common/steps","classpath:common.setup","classpath:products"},
+            glue = {"classpath:common/steps","classpath:common.setup","classpath:products"},
             plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html",
                     "pretty","html:target/cucumber-reports","json:target/cucumber-reports"},
                 monochrome = true

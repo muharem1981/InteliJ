@@ -2,17 +2,23 @@ package products;
 
 public class AllURLs {
 
-    public static String YouTubeURL = "https://www.youtube.com";
-    public static String GoogleURL = "https://www.google.com";
+    public static String YouTubeDev = "https://www.youtube.com";
+    public static String YouTubeQA = "https://www.youtube.com";
+    public static String GoogleDev = "https://www.google.com";
+    public static String GoogleQA = "https://www.google.com";
 
     public static String getProductURL()
     {
 
-        if (System.getProperty("currentProduct").equals("YouTube"))
-            return YouTubeURL;
+        if (System.getProperty("currentProduct").equals("YouTube") && System.getProperty("runEnvironment").equals("DEV"))
+            return YouTubeDev;
+        if (System.getProperty("currentProduct").equals("YouTube") && System.getProperty("runEnvironment").equals("QA"))
+            return YouTubeQA;
 
-        else if (System.getProperty("currentProduct").equals("Gogle"))
-            return GoogleURL;
+        else if (System.getProperty("currentProduct").equals("Google") && System.getProperty("runEnvironment").equals("DEV"))
+            return GoogleDev;
+        else if (System.getProperty("currentProduct").equals("Google") && System.getProperty("runEnvironment").equals("QA"))
+            return GoogleQA;
 
         else return "Product URL has not been defined";
 

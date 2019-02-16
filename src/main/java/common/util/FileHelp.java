@@ -1,8 +1,8 @@
-package util;
+package common.util;
 
 import java.io.File;
 import org.apache.commons.io.FileUtils;
-import static util.DataHelp.storedTexts;
+import static common.util.DataHelp.storedTexts;
 
 public class FileHelp {
 

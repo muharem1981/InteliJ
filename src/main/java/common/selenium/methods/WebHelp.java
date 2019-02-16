@@ -1,4 +1,4 @@
-package selenium.methods;
+package common.selenium.methods;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
@@ -60,11 +60,11 @@ public class WebHelp {
                     capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS,true);
                     capabilities.setCapability(ChromeOptions.CAPABILITY,options);
 
-                    if(System.getProperty("runEnvironment").toUpperCase().equals("REMOTE"))
+                    if(!System.getProperty("seleniumGrid").toUpperCase().equals("LOCAL"))
                         webDriver = new RemoteWebDriver(new URL(System.getProperty("seleniumGrid")),capabilities);
-                    else if(System.getProperty("runEnvironment").toUpperCase().equals("LOCAL"))
+                    else if(System.getProperty("seleniumGrid").toUpperCase().equals("LOCAL"))
                         webDriver = new ChromeDriver(options);
-                    else System.out.println(System.getProperty("runEnvironment") + " has not been defined yet.");
+                    else System.out.println("seleniumGrid" + " has not been defined.");
 
                     break;
 

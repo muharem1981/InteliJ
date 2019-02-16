@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6cfddda-57c5-4d9f-b618-97b88abce333" name="Default" comment="15-02-19" />
+    <list default="true" id="d6cfddda-57c5-4d9f-b618-97b88abce333" name="Default" comment="15-02-19">
+      <change afterPath="$PROJECT_DIR$/../common-selenium-cucumber/src/main/resources/webdrivers/selenium-server-standalone-3.141.59.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/webdrivers/selenium-server-standalone-3.141.59.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/features/YouTube/Search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-selenium-cucumber/src/main/java/selenium/methods/WebHelp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../common-selenium-cucumber/src/main/java/common/selenium/methods/WebHelp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-selenium-cucumber/src/main/java/selenium/steps/WebSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../common-selenium-cucumber/src/main/java/common/selenium/steps/WebSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-selenium-cucumber/src/main/java/util/DataHelp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../common-selenium-cucumber/src/main/java/common/util/DataHelp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-selenium-cucumber/src/main/java/util/FileHelp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../common-selenium-cucumber/src/main/java/common/util/FileHelp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/selenium/methods/WebHelp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/selenium/methods/WebHelp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/selenium/steps/WebSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/selenium/steps/WebSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/setup/RunnerHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/setup/RunnerHooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/steps/IWebSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/steps/IWebSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/util/DataHelp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/util/DataHelp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/util/FileHelp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/util/FileHelp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/products/AllFrames.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/products/AllPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/products/AllPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/products/AllURLs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/products/AllURLs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/features/YouTube/App/FeatureApp.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/features/YouTube/Service/FeatureREST.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/features/YouTube/Web/FeatureWeb.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/Google/Search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CukesRunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CukesRunTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/../common-selenium-cucumber/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="../../JavaConsole-UITest/src/._.DS_Store" />
@@ -65,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/common/setup/RunnerHooks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            <state relative-caret-position="252">
+              <caret line="46" column="66" selection-start-line="46" selection-start-column="66" selection-end-line="46" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,79 +98,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/features/YouTube/App/FeatureApp.feature">
+        <entry file="file://$PROJECT_DIR$/src/main/java/products/AllURLs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="34">
+              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../common-selenium-cucumber/src/main/java/selenium/methods/WebHelp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/common/selenium/methods/WebHelp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10846">
-              <caret line="659" selection-start-line="659" selection-end-line="659" />
+            <state relative-caret-position="517">
+              <caret line="64" column="90" selection-start-line="64" selection-start-column="90" selection-end-line="64" selection-end-column="90" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../common-selenium-cucumber/src/main/java/selenium/steps/WebSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="206" column="5" selection-start-line="206" selection-start-column="5" selection-end-line="206" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/features/YouTube/Web/FeatureWeb.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/common/steps/IWebSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../common-selenium-cucumber/src/main/java/selenium/steps/WebSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3366">
-              <caret line="200" column="24" selection-start-line="200" selection-start-column="24" selection-end-line="200" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../common-selenium-cucumber/src/main/java/selenium/methods/WebHelp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CukesRunTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="106">
+              <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,14 +148,12 @@
       <find>Type</find>
       <find>Enter</find>
       <find>safE</find>
-      <find>type</find>
       <find>take</find>
       <find>safeA</find>
       <find>scenar</find>
       <find>orac</find>
       <find>CheckDownloads</find>
       <find>date</find>
-      <find>enter</find>
       <find>uplo</find>
       <find>rena</find>
       <find>select</find>
@@ -193,11 +163,13 @@
       <find>takeS</find>
       <find>takes</find>
       <find>common</find>
+      <find>enter</find>
+      <find>type</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -206,15 +178,11 @@
         <option value="$PROJECT_DIR$/src/main/java/product/YouTube/SpecSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/product/Google/Pages/SearchPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/setup/Chrome.java" />
-        <option value="$PROJECT_DIR$/src/main/java/products/AllURLs.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/steps/WebConnect.java" />
         <option value="$PROJECT_DIR$/src/main/java/products/AllProducts.java" />
-        <option value="$PROJECT_DIR$/src/main/java/products/AllPages.java" />
         <option value="$PROJECT_DIR$/src/test/java/config/report.html" />
         <option value="$PROJECT_DIR$/src/test/java/config/report.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/CukesRunTest.java" />
         <option value="$PROJECT_DIR$/../common-selenium-cucumber/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/products/AllFrames.java" />
         <option value="$PROJECT_DIR$/src/main/java/products/Google/Pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/products/Google/Pages/SearchPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/products/YouTube/Pages/HomePage.java" />
@@ -225,11 +193,21 @@
         <option value="$PROJECT_DIR$/src/test/YouTube/Features/App/FeatureApp.feature" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../common-selenium-cucumber/src/main/java/util/DataHelp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/common/steps/IWebSteps.java" />
         <option value="$PROJECT_DIR$/../common-selenium-cucumber/src/main/java/selenium/methods/WebHelp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/common/setup/RunnerHooks.java" />
         <option value="$PROJECT_DIR$/../../common-selenium-cucumber/src/main/java/selenium/methods/WebHelp.java" />
         <option value="$PROJECT_DIR$/../../common-selenium-cucumber/src/main/java/selenium/steps/WebSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CukesRunTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/products/AllPages.java" />
+        <option value="$PROJECT_DIR$/src/main/java/products/AllFrames.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/selenium/steps/WebSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/features/YouTube/Web/FeatureWeb.feature" />
+        <option value="$PROJECT_DIR$/../common-selenium-cucumber/src/main/java/common/selenium/methods/WebHelp.java" />
+        <option value="$PROJECT_DIR$/src/test/features/Google/Search.feature" />
+        <option value="$PROJECT_DIR$/src/test/features/YouTube/Search.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/common/selenium/methods/WebHelp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/products/AllURLs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/steps/IWebSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/setup/RunnerHooks.java" />
       </list>
     </option>
   </component>
@@ -260,7 +238,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="width" value="1869" />
     <option name="height" value="1029" />
@@ -271,73 +249,155 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="product-tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-selenium-cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium-cucucmber-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-cucucmber-tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="product-tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-selenium-cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium-cucucmber-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-cucucmber-tests" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="product-tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-selenium-cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium-cucucmber-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-cucucmber-tests" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="product-tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-selenium-cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium-cucucmber-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-cucucmber-tests" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="product-tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-selenium-cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium-cucucmber-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-cucucmber-tests" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="product-tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="product-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium-cucucmber-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-cucucmber-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium-cucucmber-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-cucucmber-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="methods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium-cucucmber-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-cucucmber-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="setup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium-cucucmber-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-cucucmber-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium-cucucmber-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-cucucmber-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium-cucucmber-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-cucucmber-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium-cucucmber-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-cucucmber-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium-cucucmber-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-cucucmber-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="Google" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium-cucucmber-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-cucucmber-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="YouTube" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium-cucucmber-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-cucucmber-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550255104466" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Apps/Installed/Git/bin/git.exe" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550348390711" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30131003" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Zol Staff\HiQATech\IdeaProjects\NewProductTests\product-tests\src\test\features" />
-      <recent name="E:\Zol Staff\HiQATech\IdeaProjects\NewProductTests\product-tests\src\test\YouTube" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="product.YouTube" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Zol Staff\HiQATech\HiQATechJava\selenium-cucucmber-tests\src\test\features\YouTube" />
+      <recent name="E:\Zol Staff\HiQATech\HiQATechJava\selenium-cucucmber-tests\src\test\features\Google" />
+      <recent name="E:\Zol Staff\HiQATech\HiQATechJava\common-selenium-cucumber\src\main\java\common" />
       <recent name="E:\Zol Staff\HiQATech\IdeaProjects\NewProductTests\product-tests\src\test" />
       <recent name="D:\HiQATech\IdeaProjects\product-tests\src\main\java\product\Google" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="common.setup" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Zol Staff\HiQATech\HiQATechJava\selenium-cucucmber-tests\src\test\features\YouTube" />
+      <recent name="E:\Zol Staff\HiQATech\IdeaProjects\NewProductTests\product-tests\src\test\features" />
+      <recent name="E:\Zol Staff\HiQATech\IdeaProjects\NewProductTests\product-tests\src\test\YouTube" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -397,9 +457,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2437247" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -407,13 +467,13 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3298791" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.7690941" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.6536412" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.6536412" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.73712254" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32821497" />
@@ -458,6 +518,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
     <MESSAGE value="15-02-19" />
     <option name="LAST_COMMIT_MESSAGE" value="15-02-19" />
   </component>
@@ -476,15 +539,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/products/Google/SpecSteps.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/features/Google/Search.feature" />
     <entry file="file://$PROJECT_DIR$/src/main/java/common/setup/Chrome.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/products/AllURLs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/common/steps/WebConnect.java" />
     <entry file="file://$PROJECT_DIR$/../common-selenium-cucumber/src/main/java/selenium/steps/IWebSteps.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/config/report.html" />
@@ -523,28 +578,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/products/AllPages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="9" column="64" lean-forward="true" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/products/AllProducts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/products/AllFrames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../common-selenium-cucumber/src/main/java/util/FileHelp.java">
+    <entry file="file://$PROJECT_DIR$/../common-selenium-cucumber/src/main/java/common/util/FileHelp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
@@ -565,7 +599,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../common-selenium-cucumber/src/main/java/util/DataHelp.java">
+    <entry file="file://$PROJECT_DIR$/../common-selenium-cucumber/src/main/java/common/util/DataHelp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="33" column="96" selection-start-line="33" selection-start-column="96" selection-end-line="33" selection-end-column="96" />
@@ -579,54 +613,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../JavaConsole-UITest/src/console/steps/StepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/setup/RunnerHooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/features/YouTube/App/FeatureApp.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../common-selenium-cucumber/src/main/java/selenium/methods/WebHelp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10846">
-          <caret line="659" selection-start-line="659" selection-end-line="659" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/features/YouTube/Web/FeatureWeb.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/steps/IWebSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../JavaConsole-UITest/src/console/steps/StepDefinitions.java" />
+    <entry file="file://$PROJECT_DIR$/../../common-selenium-cucumber/src/main/java/selenium/methods/WebHelp.java" />
+    <entry file="file://$PROJECT_DIR$/../../common-selenium-cucumber/src/main/java/selenium/steps/WebSteps.java" />
     <entry file="file://$PROJECT_DIR$/../common-selenium-cucumber/src/main/java/selenium/steps/WebSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3366">
@@ -647,20 +636,109 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/features/YouTube/App/FeatureApp.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/products/AllPages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/products/AllFrames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/products/AllProducts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CukesRunTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="62">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/selenium/steps/WebSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="100" column="29" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../common-selenium-cucumber/src/main/java/selenium/steps/WebSteps.java">
+    <entry file="file://$PROJECT_DIR$/../common-selenium-cucumber/src/main/java/common/selenium/steps/WebSteps.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../common-selenium-cucumber/src/main/java/common/selenium/methods/WebHelp.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/features/YouTube/FeatureWeb.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="206" column="5" selection-start-line="206" selection-start-column="5" selection-end-line="206" selection-end-column="5" />
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/features/Google/Search.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/features/YouTube/Search.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/selenium/methods/WebHelp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="64" column="90" selection-start-line="64" selection-start-column="90" selection-end-line="64" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/products/AllURLs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/setup/RunnerHooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="46" column="66" selection-start-line="46" selection-start-column="66" selection-end-line="46" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/steps/IWebSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
