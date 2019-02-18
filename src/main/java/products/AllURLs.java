@@ -10,14 +10,14 @@ public class AllURLs {
     public static String getProductURL()
     {
 
-        if (System.getProperty("currentProduct").equals("YouTube") && System.getProperty("runEnvironment").equals("DEV"))
+        if (System.getProperty("product").equals("YouTube") && System.getProperty("runEnvironment").equals("DEV"))
             return YouTubeDev;
-        if (System.getProperty("currentProduct").equals("YouTube") && System.getProperty("runEnvironment").equals("QA"))
+        if (System.getProperty("product").equals("YouTube") && System.getProperty("runEnvironment").equals("QA"))
             return YouTubeQA;
 
-        else if (System.getProperty("currentProduct").equals("Google") && System.getProperty("runEnvironment").equals("DEV"))
+        else if (System.getProperty("product").equals("Google") && System.getProperty("runEnvironment").equals("DEV"))
             return GoogleDev;
-        else if (System.getProperty("currentProduct").equals("Google") && System.getProperty("runEnvironment").equals("QA"))
+        else if (System.getProperty("product").equals("Google") && System.getProperty("runEnvironment").equals("QA"))
             return GoogleQA;
 
         else return "Product URL has not been defined";

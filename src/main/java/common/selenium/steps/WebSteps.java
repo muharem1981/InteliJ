@@ -15,13 +15,16 @@ public class WebSteps extends WebHelp {
     }
 
     public static String NavigateToHomePage(String pageName) {
-        String result = OnThePage(pageName);
-        return navigateTo(System.getProperty("currentURL")) +" : "+ "I navigate to the " + System.getProperty("currentURL") + " URL" +"\n";
+        return navigateTo(System.getProperty("mainURL")) +" : "+ "I navigate to the " + System.getProperty("mainURL") + " URL" +"\n";
     }
 
+    public static String NavigateToTheElementLink(String elementName, String elementSelector)
+    { return navigateTo(readAttributeOfWebElement(elementSelector,"HREF"))+" : "+ "I navigate to the " + elementName + " link with selector " + elementSelector + "\n";
+        }
+
     public static String OnThePage(String pageName) {
-        System.setProperty("currentPage", pageName);
-        return "PASS";
+        System.setProperty("activePage", pageName);
+        return "PASS : I am on the " + pageName + " page " +"\n";
         }
 
     public static String SwitchToWindow(int windowNumber) {
@@ -30,6 +33,20 @@ public class WebSteps extends WebHelp {
 
     public static String SwitchToDefaultContent() {
         return switchToDefaultContent() +" : "+ "I switch to the default content" +"\n";
+    }
+
+    public static String WaitToAppear(String elementName, String elementSelector){
+        if(waitToAppear(elementSelector).contains("PASS"))
+            return "PASS ";
+        else
+            return "PASS : Visibility of element " + elementName + " with selector " + elementSelector + "\n";
+    }
+
+    public static String WaitToDisappear(String elementName, String elementSelector) {
+        if (waitToDisappear(elementSelector).contains("PASS"))
+            return "PASS ";
+        else
+            return "PASS : UnVisibility of element " + elementName + " with selector " + elementSelector + "\n";
     }
 
     public static String ActTheElement(String act, String elementName, String elementSelector) {
@@ -91,10 +108,10 @@ public class WebSteps extends WebHelp {
         int nth = Integer.parseInt(dateToSet.substring(4, 6));
         daySelector = daySelector.replace("DD", String.valueOf(nth));
 
-        waitToAppear(daySelector);
+        WaitToAppear("day_button" , daySelector);
         result = result + selectNthElement(daySelector, String.valueOf(nth - 1))  +" : "+ "I select the " + dateToSet + " with selector " + daySelector +"\n";
 
-        waitToAppear(doneButtonSelector);
+        WaitToAppear("done_button", doneButtonSelector);
         return result + safeAct("select",doneButtonSelector) +" : "+ "I select the " + doneButtonSelector + " with selector " + datePickerSelector +"\n";
     }
 
@@ -114,12 +131,12 @@ public class WebSteps extends WebHelp {
     public static String ShouldSeeTheElement(String elementName,String elementSelector)
     {
         safeAct("focus",elementSelector);
-        return waitToAppear(elementSelector)  +" : "+ "Element " + elementName + " should be visible with selector " + elementSelector +"\n";
+        return WaitToAppear(elementName,elementSelector)  +" : "+ "Element " + elementName + " should be visible with selector " + elementSelector +"\n";
     }
 
     public static String ShouldNotSeeTheElement(String elementName,String elementSelector)
     {
-        return waitToDisappear(elementSelector)  +" : "+ "Element " + elementName + " should not be visible with selector " + elementSelector +"\n";
+        return WaitToDisappear(elementName,elementSelector)  +" : "+ "Element " + elementName + " should not be visible with selector " + elementSelector +"\n";
     }
 
     public static String ElementTextShouldBe(String elementName, String elementSelector, String attribute, String condition, String text)
@@ -201,9 +218,9 @@ public class WebSteps extends WebHelp {
         return takeScreenShot(dest) +" : "+ "I take screenshot and save to " + dest + "\n";
     }
 
-    public static String WaitSomeSec(int wait, String waitFor)
+    public static String WaitSomeSec(String wait, String waitFor)
     {
-        return sleep(wait) +" : "+"Wait " + wait + " for " + waitFor +"\n";
+        return sleep(Integer.valueOf(wait)) +" : "+"Wait " + wait + " sec/s for " + waitFor +"\n";
     }
 
     public static String HitOnTheKeyBoard(String key)

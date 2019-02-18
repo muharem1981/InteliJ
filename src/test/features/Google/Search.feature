@@ -5,6 +5,6 @@ Feature: Google Search Tests
 
   @Smoke
   Scenario:Google - I can find ...
-    Given I navigate to the "Home" page
+    Given I navigate to the Home page
 
     #And I have fun :)

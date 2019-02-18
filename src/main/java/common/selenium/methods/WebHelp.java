@@ -17,6 +17,7 @@ import java.awt.event.KeyEvent;
 import java.io.File;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -40,7 +41,7 @@ public class WebHelp {
             {
 
                 case "CHROME":
-                    String chromeDriverPath = driverPath + "chromedriver.exe";
+                    String chromeDriverPath = driverPath + "chromeDriver.exe";
                     System.setProperty("webdriver.chrome.driver",chromeDriverPath);
 
                     HashMap<String,Object> chromePrefs = new HashMap<String,Object>();
@@ -57,9 +58,12 @@ public class WebHelp {
                     options.addArguments("--screenshot");
 
                     capabilities = DesiredCapabilities.chrome();
+                    capabilities.setCapability("chrome.switches", Arrays.asList("--disable-extensions"));
+                    capabilities.setCapability("chrome.switches", Arrays.asList("--ignore-certificate-errors"));
+                    capabilities.setCapability("chrome.switches", Arrays.asList("--start-maximized"));
+                    capabilities.setCapability("chrome.switches", Arrays.asList("--screenshots"));
                     capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS,true);
-                    capabilities.setCapability(ChromeOptions.CAPABILITY,options);
-
+                    capabilities.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR,UnexpectedAlertBehaviour.IGNORE);
                     if(!System.getProperty("seleniumGrid").toUpperCase().equals("LOCAL"))
                         webDriver = new RemoteWebDriver(new URL(System.getProperty("seleniumGrid")),capabilities);
                     else if(System.getProperty("seleniumGrid").toUpperCase().equals("LOCAL"))
@@ -108,7 +112,6 @@ public class WebHelp {
 
             webDriver.manage().window().maximize();
 
-            System.out.println("webdriver " + driver + " has been started \n");
             return  "PASS";
 
         }
@@ -123,7 +126,6 @@ public class WebHelp {
         {
             webDriver.close();
             webDriver.quit();
-            System.out.println("webdriver has been stopped");
             return  "PASS";
         }
         catch(Exception ex)
@@ -169,7 +171,7 @@ public class WebHelp {
     {
         try
         {
-            Thread.sleep(sleep);
+            Thread.sleep(sleep * 1000);
             return "PASS";
         }
         catch (Exception ex){return ex.toString();}
@@ -503,8 +505,10 @@ public class WebHelp {
             act = act.toUpperCase();
             WebElement webElement = webDriver.findElement(By.xpath(elementSelector));
 
-            if(act.equals("SELECT") || act.equals("CLICK"))
-                return scrollAnd(act,elementSelector);
+            if(act.toUpperCase().equals("CLICK"))
+                return tryToClick(webElement);
+            else if(act.toUpperCase().equals("SELECT"))
+                return tryToSelect(webElement);
             else if(act.equals("HIT"))
                 {webElement.sendKeys(Keys.ENTER); return "PASS";}
             else if(act.equals("CLEAR"))

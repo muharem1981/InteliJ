@@ -39,19 +39,21 @@ public class RunnerHooks {
         System.setProperty("userID",System.getProperty("user.home").replace("C:\\Users\\",""));
         System.setProperty("downloadPath",System.getProperty("user.home")+"\\Downloads");
         System.setProperty("reportPath",System.getProperty("projectPath")+"\\target\\cucumber-reports");
-        System.getProperty("filePath",System.getProperty("projectPath") + "\\src\\main\\resources\\files\\");
+        System.setProperty("filePath",System.getProperty("projectPath") + "\\src\\main\\resources\\files\\");
+        System.setProperty("driverPath",System.getProperty("projectPath") + "\\src\\main\\resources\\webdrivers\\");
 
-        System.out.println("Product Tests Starts \n");
         System.out.println("************************************************************************************\n");
+        System.out.println("Product Tests Starts \n");
         System.out.println("Scenario : " + myScenario + "\n");
-        System.setProperty("currentURL", AllURLs.getProductURL());
-        System.out.println("CurrentURL : " + System.getProperty("currentURL") + "\n");
+        System.setProperty("mainURL", AllURLs.getProductURL());
+        System.out.println("MainURL : " + System.getProperty("mainURL") + "\n");
+        System.out.println("SystemTime : " + System.getProperty("systemTime") + "\n");
         System.out.println("************************************************************************************\n");
 
         System.out.println("ProjectPath : " + System.getProperty("projectPath") + "\n");
         System.out.println("ReportPath : " + System.getProperty("reportPath") + "\n");
         System.out.println("FilePath : " + System.getProperty("filePath") + "\n");
-        System.out.println("SystemTime : " + System.getProperty("systemTime") + "\n");
+
         System.out.println("WebDriver : " + System.getProperty("runDriver") + "\n");
         System.out.println("Environment : " + System.getProperty("runEnvironment") + "\n");
         System.out.println("SeleniumGrid : " + System.getProperty("seleniumGrid") + "\n");
@@ -59,6 +61,7 @@ public class RunnerHooks {
 
         IStartTheWebDriver(System.getProperty("runDriver"));
 
+        System.out.println("************************************************************************************\n");
 
     }
 
@@ -67,17 +70,15 @@ public class RunnerHooks {
     {
         if(screnario.isFailed())
         {
-            ITakeScreenShot(myScenario + "_failed_" + getTimeStamp("YYYY-MM-DD-HH-mm-ss-SSS"));
-            IStopTheWebDriver();
+            ITakeScreenShot(myScenario + " failed_" + getTimeStamp("YYYY-MM-DD-HH-mm-ss-SSS"));
             System.out.println("Test Failed ! \n");
-        }
+            }
 
         else{
             System.out.println("Test Passed ! \n");
-            IStopTheWebDriver();
         }
-
-
+        IStopTheWebDriver();
+        System.out.println("************************************************************************************\n");
 
 
     }
