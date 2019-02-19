@@ -10,11 +10,13 @@ import java.io.File;
 @RunWith(Cucumber.class)
 @CucumberOptions
         (
-            features = {"src/test/features"},
-            glue = {"classpath:common/steps","classpath:common.setup","classpath:products"},
-            plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html",
-                    "pretty","html:target/cucumber-reports","json:target/cucumber-reports"},
-                monochrome = true
+            features = {"src/test/resources/features"},
+        tags = { "@Smoke", "@Regression" },
+        glue = {"classpath:common/steps","classpath:common.setup","classpath:products"},
+            plugin = {
+            "html:target/cucumber-reports/report","json:target/cucumber-reports/report",
+            "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"
+            },monochrome = true
             )
 
 
@@ -22,7 +24,7 @@ public class CukesRunTest {
 
     @AfterClass
     public static void writeExtentReport() {
-        Reporter.loadXMLConfig(new File("config/report.xml"));
+        Reporter.loadXMLConfig(new File("E:\\ZolStaff\\HiQATech\\HiQATechJava\\cucumber-selenium-tests\\src\\test\\java\\config\\report.xml"));
 
     }
 }

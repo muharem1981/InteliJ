@@ -3,5 +3,5 @@
 
 Feature: Google Home Tests
 
-  @Smoke
+  @Regression
   Scenario:Google -

@@ -3,7 +3,7 @@
 
 Feature: Google Search Tests
 
-  @Smoke
+  @Regression
   Scenario:Google - I can find ...
     Given I navigate to the Home page
 
