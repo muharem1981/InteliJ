@@ -11,7 +11,7 @@ public class WebSteps extends WebHelp {
     }
 
     public static String StopWebDriver() {
-        return stopWebDriver() +" : "+ "I stop the Webdriver with the browser" +"\n";
+        return stopWebDriver() +" : "+ "I stop the Webdriver with " + System.getProperty("runDriver") + " the browser" +"\n";
     }
 
     public static String NavigateToHomePage(String pageName) {
@@ -53,7 +53,7 @@ public class WebSteps extends WebHelp {
       if (elementName.contains("alert"))
             return handleAlert(act) +" : "+ "I " + act + "ed the alert" +"\n";
         else
-            return safeAct(act, elementSelector) +" : "+ "I " + act + "ed the element" + elementName + " with selector " + elementSelector +"\n";
+            return safeAct(act, elementSelector) +" : "+ "I " + act + "ed the element " + elementName + " with selector " + elementSelector +"\n";
     }
 
     public static String ElementStatusShouldBe(String elementName, String elementSelector, String status) {
@@ -130,7 +130,6 @@ public class WebSteps extends WebHelp {
 
     public static String ShouldSeeTheElement(String elementName,String elementSelector)
     {
-        safeAct("focus",elementSelector);
         return WaitToAppear(elementName,elementSelector)  +" : "+ "Element " + elementName + " should be visible with selector " + elementSelector +"\n";
     }
 
@@ -141,7 +140,6 @@ public class WebSteps extends WebHelp {
 
     public static String ElementTextShouldBe(String elementName, String elementSelector, String attribute, String condition, String text)
     {
-        safeAct("focus",elementSelector);
         attribute = attribute.toUpperCase();
 
         if(text.contains("Text"))
@@ -178,7 +176,6 @@ public class WebSteps extends WebHelp {
 
     public static String ElementTextShouldNotBe(String elementName, String elementSelector, String attribute, String condition, String text)
     {
-        safeAct("focus",elementSelector);
         attribute = attribute.toUpperCase();
 
         if(text.contains("Text"))
@@ -230,7 +227,6 @@ public class WebSteps extends WebHelp {
 
     public static String StoreElementTextAsTextX(String elementName,String attribute, String elementSelector, String textX)
     {
-        safeAct("focus",elementSelector);
         String currentText = "null";
         if(attribute.equals("TEXT"))
             currentText = readTextOfWebElement(elementSelector);

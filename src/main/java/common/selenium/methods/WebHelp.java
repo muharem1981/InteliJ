@@ -435,34 +435,6 @@ public class WebHelp {
         {System.out.println(ex.toString()); return  ex.toString();}
     }
 
-    public static String scrollSelect(String elementSelector)
-    {
-        try
-        {
-            WebElement webElement = webDriver.findElement(By.xpath(elementSelector));
-            for(int i =0;i<3;i++)
-            {keyActions("PAGEUP");}
-
-            int trying = 0;
-            String result = tryToSelect(webElement);
-            while(trying < 70)
-            {
-                if(result.toUpperCase().equals("PASS"))
-                    break;
-                else
-                {
-                    keyActions("ARROWDOWN");
-                    result = tryToClick(webElement);
-                    trying = trying + 1;
-                }
-            }
-            trying = 0;
-            return result;
-        }
-        catch(Exception ex)
-        {System.out.println(ex.toString()); return  ex.toString();}
-    }
-
     public static String scrollAnd(String act, String elementSelector)
     {
         try
@@ -505,6 +477,8 @@ public class WebHelp {
             act = act.toUpperCase();
             WebElement webElement = webDriver.findElement(By.xpath(elementSelector));
 
+            if(act.toUpperCase().equals("FOCUS"))
+                return tryToClick(webElement);
             if(act.toUpperCase().equals("CLICK"))
                 return tryToClick(webElement);
             else if(act.toUpperCase().equals("SELECT"))
