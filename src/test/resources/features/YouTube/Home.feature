@@ -3,5 +3,5 @@
 
 Feature: YouTube Home Tests
 
-  @Smoke
+  @Regression
   Scenario:YouTube -

@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6cfddda-57c5-4d9f-b618-97b88abce333" name="Default" comment="update works finefix add remote webdriver">
-      <change beforePath="$PROJECT_DIR$/../common-selenium-cucumber/target/classes/selenium/methods/SendScript.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../common-selenium-cucumber/target/classes/selenium/methods/WebHelp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../common-selenium-cucumber/target/classes/selenium/steps/WebSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../common-selenium-cucumber/target/classes/util/DataHelp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../common-selenium-cucumber/target/classes/util/FileHelp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="d6cfddda-57c5-4d9f-b618-97b88abce333" name="Default" comment="update works finefix add remote webdriver try maven run">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/features/Google/Home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Google/Home.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/features/Google/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Google/Search.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/features/YouTube/Home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/YouTube/Home.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/features/YouTube/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/YouTube/Search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/steps/IWebSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/steps/IWebSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CukesRunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CukesRunTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/config/report.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/extent-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/YouTube/Home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/YouTube/Home.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../common-selenium-cucumber/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -87,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+            <state relative-caret-position="340">
+              <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -99,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CukesRunTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="16" column="48" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="48" />
+            <state relative-caret-position="273">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,16 +100,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Google/Home.feature">
+        <entry file="file://$PROJECT_DIR$/src/main/java/common/setup/RunnerHooks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="96">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Google/Search.feature">
+        <entry file="file://$PROJECT_DIR$/src/main/java/common/steps/IWebSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="154" column="14" selection-start-line="154" selection-start-column="14" selection-end-line="154" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/YouTube/Home.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -221,13 +227,14 @@
         <option value="$PROJECT_DIR$/src/main/java/common/setup/RunnerHooks.java" />
         <option value="$PROJECT_DIR$/src/main/java/products/YouTube/Pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/features/YouTube/Search.feature" />
-        <option value="$PROJECT_DIR$/src/main/java/common/steps/IWebSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/selenium/steps/WebSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/selenium/methods/WebHelp.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Google/Home.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Google/Search.feature" />
         <option value="$PROJECT_DIR$/src/test/java/CukesRunTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/common/steps/IWebSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/YouTube/Home.feature" />
       </list>
     </option>
   </component>
@@ -288,7 +295,13 @@
               <item name="cucumber-selenium-tests" type="b2602c69:ProjectViewProjectNode" />
               <item name="cucumber-selenium-tests" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-selenium-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-selenium-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -296,6 +309,7 @@
               <item name="cucumber-selenium-tests" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cucumber-selenium-tests" type="b2602c69:ProjectViewProjectNode" />
@@ -303,6 +317,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cucumber-selenium-tests" type="b2602c69:ProjectViewProjectNode" />
@@ -319,7 +334,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="Google" type="462c0819:PsiDirectoryNode" />
+              <item name="YouTube" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -330,7 +345,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550616269306" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550626571507" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -506,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550573199509</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update works finefix add remote webdriver try maven run">
+      <created>1550616309917</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1550616309917</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -545,7 +567,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21538462" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21538462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -554,7 +576,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38898757" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5612789" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -612,7 +634,8 @@
     <MESSAGE value="update works" />
     <MESSAGE value="update works finefix" />
     <MESSAGE value="update works finefix add remote webdriver" />
-    <option name="LAST_COMMIT_MESSAGE" value="update works finefix add remote webdriver" />
+    <MESSAGE value="update works finefix add remote webdriver try maven run" />
+    <option name="LAST_COMMIT_MESSAGE" value="update works finefix add remote webdriver try maven run" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -627,7 +650,7 @@
           <url>file://$PROJECT_DIR$/src/test/java/CukesRunTest.java</url>
           <line>26</line>
           <properties />
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -665,13 +688,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/common/steps/WebConnect.java" />
     <entry file="file://$PROJECT_DIR$/../common-selenium-cucumber/src/main/java/selenium/steps/IWebSteps.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/config/report.html" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/config/report.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../common-selenium-cucumber/src/main/java/common/util/FileHelp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -764,30 +780,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/steps/IWebSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="48" column="31" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/common/selenium/steps/WebSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3842">
           <caret line="228" column="5" selection-start-line="228" selection-start-column="5" selection-end-line="228" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/setup/RunnerHooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="54" column="82" selection-start-line="54" selection-start-column="82" selection-end-line="54" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -819,22 +815,8 @@
     <entry file="file://$PROJECT_DIR$/target/cucumber-reports/report.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/YouTube/Home.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/surefire-reports/TEST-CukesRunTest.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/YouTube/Search.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/Google/Home.feature">
       <provider selected="true" editor-type-id="text-editor">
@@ -850,20 +832,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/config/extent-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CukesRunTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="48" />
+        <state relative-caret-position="273">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/setup/RunnerHooks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+        <state relative-caret-position="96">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/steps/IWebSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="154" column="14" selection-start-line="154" selection-start-column="14" selection-end-line="154" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/YouTube/Search.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/YouTube/Home.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>

@@ -14,7 +14,7 @@ import java.io.File;
         tags = { "@Smoke", "@Regression" },
         glue = {"classpath:common/steps","classpath:common.setup","classpath:products"},
             plugin = {
-            "html:target/cucumber-reports/report","json:target/cucumber-reports/report",
+            "json:target/cucumber-reports/report.json",
             "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"
             },monochrome = true
             )
@@ -24,7 +24,7 @@ public class CukesRunTest {
 
     @AfterClass
     public static void writeExtentReport() {
-        Reporter.loadXMLConfig(new File("E:\\ZolStaff\\HiQATech\\HiQATechJava\\cucumber-selenium-tests\\src\\test\\java\\config\\report.xml"));
+        Reporter.loadXMLConfig(new File("src/test/resources/config/extent-config.xml"));
 
     }
 }
