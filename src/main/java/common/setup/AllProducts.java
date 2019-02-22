@@ -1,6 +1,6 @@
-package products;
+package common.setup;
 
-import static products.AllPages.*;
+import static common.setup.AllPages.*;
 
 public class AllProducts {
 

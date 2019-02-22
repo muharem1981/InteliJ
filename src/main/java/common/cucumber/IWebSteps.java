@@ -1,12 +1,12 @@
-package common.steps;
+package common.cucumber;
 
 import common.setup.RunnerHooks;
 import cucumber.api.java.en.Given;
 import org.junit.Assert;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import products.AllProducts;
-import static common.selenium.steps.WebSteps.*;
+import common.setup.AllProducts;
+import static common.selenium.WebSteps.*;
 
 
 public class IWebSteps {

@@ -12,7 +12,7 @@ import java.io.File;
         (
             features = {"src/test/resources/features"},
         tags = { "@Smoke", "@Regression" },
-        glue = {"classpath:common/steps","classpath:common.setup","classpath:products"},
+        glue = {"classpath:common/cucumber","classpath:common.setup","classpath:products"},
             plugin = {
             "json:target/cucumber-reports/report.json",
             "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"
@@ -24,7 +24,7 @@ public class CukesRunTest {
 
     @AfterClass
     public static void writeExtentReport() {
-        Reporter.loadXMLConfig(new File("src/test/resources/config/extent-config.xml"));
+        Reporter.loadXMLConfig(new File("src/main/resources/config/extent-config.xml"));
 
     }
 }

@@ -1,4 +1,4 @@
-package products;
+package common.setup;
 
 public class AllPages {
 

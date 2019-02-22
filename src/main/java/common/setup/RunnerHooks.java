@@ -3,12 +3,10 @@ package common.setup;
 import cucumber.api.Scenario;
 import cucumber.api.java.Before;
 import cucumber.api.java.After;
-import products.AllProducts;
-import products.AllURLs;
 
 import org.joda.time.DateTime;
 
-import static common.steps.IWebSteps.*;
+import static common.cucumber.IWebSteps.*;
 import static common.util.DataHelp.getTimeStamp;
 
 public class RunnerHooks {

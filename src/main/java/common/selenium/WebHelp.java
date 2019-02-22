@@ -1,4 +1,4 @@
-package common.selenium.methods;
+package common.selenium;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;

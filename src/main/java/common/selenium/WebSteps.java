@@ -1,6 +1,6 @@
-package common.selenium.steps;
+package common.selenium;
 
-import common.selenium.methods.WebHelp;
+import common.selenium.WebHelp;
 import common.util.DataHelp;
 import common.util.FileHelp;
 
