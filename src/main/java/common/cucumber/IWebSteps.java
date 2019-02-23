@@ -43,7 +43,7 @@ public class IWebSteps {
     public static void ISwitchToTheDefaultContent()
     {AssertExecutedStep(SwitchToDefaultContent());}
 
-    @Given("^I \"([^\"]*)\" the \"([^\"]*)\" element$")
+    @Given("^I \"([^\"]*)\" the \"([^\"]*)\"$")
     public static void IActTheElement(String act, String elementName)
     {  VerifyExecutedStep(WaitToAppear(elementName,AllProducts.getElementSelector(elementName)));
         AssertExecutedStep(ActTheElement(act,elementName,AllProducts.getElementSelector(elementName)));}
@@ -67,7 +67,7 @@ public class IWebSteps {
     {VerifyExecutedStep(WaitToAppear(elementName,AllProducts.getElementSelector(elementName)));
         AssertExecutedStep(ClickFromDropDownBy(text,attribute,elementName,AllProducts.getElementSelector(elementName),optionName,AllProducts.getElementSelector(optionName)));}
 
-    @Given("^I upload the \"([^\"]*)\" file to the \"([^\"]*)\" element$")
+    @Given("^I upload the \"([^\"]*)\" file to the \"([^\"]*)\"$")
     public static void IUploadTheFile(String fileName, String elementName)
     {VerifyExecutedStep(WaitToAppear(elementName,AllProducts.getElementSelector(elementName)));
         AssertExecutedStep(UploadFile(fileName,elementName,AllProducts.getElementSelector(elementName)));}
@@ -85,12 +85,12 @@ public class IWebSteps {
     public static void IDeleteFile(String fileName)
     {AssertExecutedStep(DeleteFile(fileName));}
 
-    @Given("^I select the \"([^\"]*)\" \"([^\"]*)\" from the \"([^\"]*)\" element$")
+    @Given("^I select the \"([^\"]*)\" \"([^\"]*)\" from the \"([^\"]*)\"$")
     public static void ISelectTheElementBy(String text,String attribute,String dropDownName)
     {VerifyExecutedStep(WaitToAppear(dropDownName,AllProducts.getElementSelector(dropDownName)));
         AssertExecutedStep(SelectFromDropDownBy(text,attribute,dropDownName,AllProducts.getElementSelector(dropDownName)));}
 
-    @Given("^I click the \"([^\"]*)\" \"([^\"]*)\" from the \"([^\"]*)\" element$")
+    @Given("^I click the \"([^\"]*)\" \"([^\"]*)\" from the \"([^\"]*)\"$")
     public static void IClickTheElementBy(String text,String attribute,String selection,String dropDownName)
     {VerifyExecutedStep(WaitToAppear(dropDownName,AllProducts.getElementSelector(dropDownName)));
         AssertExecutedStep(ClickFromDropDownBy(text,attribute,dropDownName,AllProducts.getElementSelector(dropDownName),selection,AllProducts.getElementSelector(selection)));}
@@ -100,16 +100,16 @@ public class IWebSteps {
     {VerifyExecutedStep(WaitToAppear(datePickerName,AllProducts.getElementSelector(datePickerName)));
         AssertExecutedStep(SelectDateInDatePicker(date,datePickerName,AllProducts.getElementSelector(datePickerName),AllProducts.getElementSelector("day_selector"),AllProducts.getElementSelector("done_button")));}
 
-    @Given("^I \"([^\"]*)\" \"([^\"]*)\" into the \"([^\"]*)\" element$")
+    @Given("^I \"([^\"]*)\" \"([^\"]*)\" into the \"([^\"]*)\"$")
     public static void IIntoTheElement(String act, String entry, String elementName)
     { VerifyExecutedStep(WaitToAppear(elementName,AllProducts.getElementSelector(elementName)));
         AssertExecutedStep(IntoTheElement(act,entry, elementName, AllProducts.getElementSelector(elementName)));}
 
-    @Given("^I should see the \"([^\"]*)\" element$")
+    @Given("^I should see the \"([^\"]*)\"$")
     public static void IShouldSeeTheElement(String elementName)
     {AssertExecutedStep(ShouldSeeTheElement(elementName,AllProducts.getElementSelector(elementName)));}
 
-    @Given("^I should not see the \"([^\"]*)\" element$")
+    @Given("^I should not see the \"([^\"]*)\"$")
     public static void IShouldNotSeeTheElement(String elementName)
     {AssertExecutedStep(ShouldNotSeeTheElement(elementName,AllProducts.getElementSelector(elementName)));}
 

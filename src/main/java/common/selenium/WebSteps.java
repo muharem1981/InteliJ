@@ -53,7 +53,7 @@ public class WebSteps extends WebHelp {
       if (elementName.contains("alert"))
             return handleAlert(act) +" : "+ "I " + act + "ed the alert" +"\n";
         else
-            return safeAct(act, elementSelector) +" : "+ "I " + act + "ed the element " + elementName + " with selector " + elementSelector +"\n";
+            return safeAct(act, elementSelector) +" : "+ "I " + act + "ed the " + elementName + " with selector " + elementSelector +"\n";
     }
 
     public static String ElementStatusShouldBe(String elementName, String elementSelector, String status) {
@@ -130,12 +130,12 @@ public class WebSteps extends WebHelp {
 
     public static String ShouldSeeTheElement(String elementName,String elementSelector)
     {
-        return WaitToAppear(elementName,elementSelector)  +" : "+ "Element " + elementName + " should be visible with selector " + elementSelector +"\n";
+        return WaitToAppear(elementName,elementSelector)  +" : " + elementName + " should be visible with selector " + elementSelector +"\n";
     }
 
     public static String ShouldNotSeeTheElement(String elementName,String elementSelector)
     {
-        return WaitToDisappear(elementName,elementSelector)  +" : "+ "Element " + elementName + " should not be visible with selector " + elementSelector +"\n";
+        return WaitToDisappear(elementName,elementSelector)  +" : " + elementName + " should not be visible with selector " + elementSelector +"\n";
     }
 
     public static String ElementTextShouldBe(String elementName, String elementSelector, String attribute, String condition, String text)
@@ -170,7 +170,7 @@ public class WebSteps extends WebHelp {
         }
         else return "FAIL"  +" : "+ "The " + condition + " condition test of element has not been implemented" +"\n";
 
-        return result + " : " +"The " + currentText + " " + attribute + " should " + attribute + " with text " + text + " in the element " + elementName + " with selector " + elementSelector +"\n";
+        return result + " : " +"The " + currentText + " " + attribute + " should " + attribute + " with text " + text + " in the " + elementName + " with selector " + elementSelector +"\n";
 
     }
 
@@ -186,7 +186,7 @@ public class WebSteps extends WebHelp {
             currentText = readTextOfWebElement(elementSelector);
         else if (attribute.equals("VALUE") || attribute.equals("HREF") || attribute.equals("PLACEHOLDER"))
             currentText = readAttributeOfWebElement(elementSelector,attribute.toLowerCase());
-        else return "FAIL" +" : "+ "The " + attribute + " attribute test of element has not been implemented" +"\n";
+        else return "FAIL" +" : "+ "The " + attribute + " attribute has not been implemented" +"\n";
 
         if(!text.contains("http"))
             text = DataHelp.prepText(text);
@@ -206,7 +206,7 @@ public class WebSteps extends WebHelp {
         }
         else return "FAIL" +" : "+ "The " + condition + " condition test of element has not been implemented" +"\n";
 
-        return result +" : "+"The " + currentText + " " + attribute + " should " + attribute + " with text " + text + " in the element " + elementName + " with selector " + elementSelector +"\n";
+        return result +" : "+"The " + currentText + " " + attribute + " should " + attribute + " with text " + text + " in the " + elementName + " with selector " + elementSelector +"\n";
 
     }
 
@@ -232,7 +232,7 @@ public class WebSteps extends WebHelp {
             currentText = readTextOfWebElement(elementSelector);
         else if (attribute.equals("VALUE") || attribute.equals("HREF") || attribute.equals("PLACEHOLDER"))
             currentText = readAttributeOfWebElement(elementSelector,attribute.toLowerCase());
-        else return "FAIL" +" : "+ "The " + attribute + " attribute test of element has not been implemented" +"\n";
+        else return "FAIL" +" : "+ "The " + attribute + " attribute has not been implemented" +"\n";
 
         String text = readTextOfWebElement(elementSelector);
         return DataHelp.storeText(currentText,textX) +" : "+"Store the " + attribute  + " of the " + elementName  + " with selector " + elementSelector + " as " + textX +"\n";
