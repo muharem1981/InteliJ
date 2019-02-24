@@ -69,6 +69,7 @@ public class RunnerHooks {
         if(screnario.isFailed())
         {
             ITakeScreenShot(myScenario + " failed_" + getTimeStamp("YYYY-MM-DD-HH-mm-ss-SSS"));
+            IStopTheWebDriver();
             System.out.println("Test Failed ! \n");
             }
 

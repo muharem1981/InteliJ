@@ -8,7 +8,9 @@ Feature: YouTube Search Tests
     Given I navigate to the Home page
     And I "enter" "Dash Berlin - With you" into the "search_field"
     When I "click" the "search_submit"
+    And I wait "4" sec/s for "search"
     Then I should see the "search_result1_image"
+    And I takes screenshot as "evidence1"
     Then I "click" the "search_result1_title"
     And I wait "24" sec/s for "play"
 

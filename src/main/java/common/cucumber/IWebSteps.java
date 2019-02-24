@@ -123,7 +123,7 @@ public class IWebSteps {
     {VerifyExecutedStep(WaitToAppear(elementName,AllProducts.getElementSelector(elementName)));
         AssertExecutedStep(ElementTextShouldNotBe(elementName,AllProducts.getElementSelector(elementName),attribute,condition,entry ));}
 
-    @Given("^I takes screenshot to \"([^\"]*)\"$")
+    @Given("^I takes screenshot as \"([^\"]*)\"$")
     public static void ITakeScreenShot(String fileName)
     {
         final byte[] screenshot = ((TakesScreenshot) webDriver).getScreenshotAs(OutputType.BYTES);
