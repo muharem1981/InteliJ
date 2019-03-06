@@ -9,8 +9,5 @@
         <module name="selenium-cucumber-tests" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="common-selenium-cucumber" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

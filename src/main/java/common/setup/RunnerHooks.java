@@ -20,8 +20,8 @@ public class RunnerHooks {
     {
         // local use, comment before push
         System.setProperty("runDriver","chrome");
-        System.setProperty("seleniumGrid","local");
-        System.setProperty("runEnvironment","QA");
+        System.setProperty("seleniumGrid","local"); //192.168.1.208
+        System.setProperty("runEnvironment","PROD");
 
         this.scenario = scenario;
 
