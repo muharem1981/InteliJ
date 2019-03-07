@@ -14,7 +14,7 @@ import java.io.File;
         tags = { "@Smoke", "@Regression" },
         glue = {"classpath:common/cucumber","classpath:common.setup","classpath:products"},
             plugin = {
-            "html:target/cucumber-reports/report.html",
+            "html:target/cucumber-reports",
             "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/extent-report.html"
             },monochrome = true
             )
