@@ -23,6 +23,7 @@ public class RunnerHooks {
         //System.setProperty("seleniumGrid","local"); //192.168.1.208:32001/wd/hub
         //System.setProperty("runEnvironment","PROD");
 
+
         this.scenario = scenario;
 
         if(wantsToQuit)
@@ -52,9 +53,12 @@ public class RunnerHooks {
         System.out.println("ReportPath : " + System.getProperty("reportPath") + "\n");
         System.out.println("FilePath : " + System.getProperty("filePath") + "\n");
 
-        System.out.println("WebDriver : " + System.getProperty("runDriver") + "\n");
-        System.out.println("Environment : " + System.getProperty("runEnvironment") + "\n");
-        System.out.println("SeleniumGrid : " + System.getProperty("seleniumGrid") + "\n");
+        try {
+          System.out.println("WebDriver : " + System.getProperty("runDriver") + "\n");
+          System.out.println("Environment : " + System.getProperty("runEnvironment") + "\n");
+          System.out.println("SeleniumGrid : " + System.getProperty("seleniumGrid") + "\n");
+        }
+        catch (Exception ex){System.out.println("No WebDriver, Environment or SeleniumGrid property found.");}
         System.out.println("************************************************************************************\n");
 
         IStartTheWebDriver(System.getProperty("runDriver"));
