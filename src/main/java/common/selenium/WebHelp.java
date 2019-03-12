@@ -171,7 +171,7 @@ public class WebHelp {
     {
         try
         {
-            Thread.sleep(sleep * 1000);
+            Thread.sleep(sleep);
             return "PASS";
         }
         catch (Exception ex){return ex.toString();}

@@ -13,7 +13,7 @@ public class HomePage {
         elementLocators.put("search_result1_image", "//*[@id=\"img\"]");
         elementLocators.put("search_result1_title", "//*[@id=\"video-title\"]");
 
-        elementLocators.put("", "");
+        elementLocators.put("search_result_2_title", "//*[contains(text(),'TOP 6 Things To Do')]");
 
     }
 

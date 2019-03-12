@@ -217,7 +217,7 @@ public class WebSteps extends WebHelp {
 
     public static String WaitSomeSec(String wait, String waitFor)
     {
-        return sleep(Integer.valueOf(wait)) +" : "+"Wait " + wait + " sec/s for " + waitFor +"\n";
+        return sleep(Integer.valueOf(wait)*1000) +" : "+"Wait " + wait + " sec/s for " + waitFor +"\n";
     }
 
     public static String HitOnTheKeyBoard(String key)
