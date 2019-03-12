@@ -7,6 +7,7 @@ import cucumber.api.java.After;
 import org.joda.time.DateTime;
 
 import static common.cucumber.IWebSteps.*;
+import static common.selenium.WebSteps.*;
 import static common.util.DataHelp.getTimeStamp;
 
 public class RunnerHooks {
@@ -28,6 +29,16 @@ public class RunnerHooks {
 
         if(wantsToQuit)
             throw new RuntimeException("Test FAIL : Cucumber wants to quit");
+          try {
+            if (!(System.getProperty("runDriver").isEmpty() || System.getProperty("runEnvironment").isEmpty() || System.getProperty("seleniumGrid").isEmpty())) {
+              System.out.println("************************************************************************************\n");
+              System.out.println("WebDriver, Environment and SeleniumGrid property found.");
+            }
+          }
+          catch (Exception ex) {
+            System.out.println("************************************************************************************\n");
+            System.out.println("Error : No WebDriver, Environment or SeleniumGrid property found.");
+          }
 
         myScenario = scenario.getName();
         System.setProperty("scenario",myScenario);
@@ -53,13 +64,11 @@ public class RunnerHooks {
         System.out.println("ReportPath : " + System.getProperty("reportPath") + "\n");
         System.out.println("FilePath : " + System.getProperty("filePath") + "\n");
 
-        try {
           System.out.println("WebDriver : " + System.getProperty("runDriver") + "\n");
           System.out.println("Environment : " + System.getProperty("runEnvironment") + "\n");
           System.out.println("SeleniumGrid : " + System.getProperty("seleniumGrid") + "\n");
-        }
-        catch (Exception ex){System.out.println("No WebDriver, Environment or SeleniumGrid property found.");}
-        System.out.println("************************************************************************************\n");
+
+         System.out.println("************************************************************************************\n");
 
         IStartTheWebDriver(System.getProperty("runDriver"));
 
@@ -73,7 +82,7 @@ public class RunnerHooks {
         if(screnario.isFailed())
         {
             ITakeScreenShot(myScenario + " failed_" + getTimeStamp("YYYY-MM-DD-HH-mm-ss-SSS"));
-            IStopTheWebDriver();
+            StopWebDriver();
             System.out.println("Test Failed ! \n");
             }
 
