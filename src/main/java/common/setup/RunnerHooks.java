@@ -3,10 +3,8 @@ package common.setup;
 import cucumber.api.Scenario;
 import cucumber.api.java.Before;
 import cucumber.api.java.After;
-import cucumber.api.java.en.Given;
 
 import org.joda.time.DateTime;
-import org.junit.Assert;
 
 import static common.cucumber.IWebSteps.*;
 import static common.selenium.WebSteps.*;
@@ -99,27 +97,5 @@ public class RunnerHooks {
 
     //-----------------------------------------------------------------------------//
 
-  @Given("^I assert the \"([^\"]*)\" result with message \"([^\"]*)\"$")
-  public static void AssertExecutedStep(String result)
-  {
-    if (!result.toUpperCase().contains("PASS")) {
-      scenario.write(result);
-      System.out.println(result);
-      Assert.assertTrue(false);
-    }
-    else {
-      scenario.write(result);
-      System.out.println(result);
-    }
-  }
-
-  @Given("^I verify the \"([^\"]*)\" result with message \"([^\"]*)\"$")
-  public static void VerifyExecutedStep(String result)
-  {
-    if (!result.toUpperCase().contains("PASS")){
-      scenario.write(result);
-      System.out.println(result);
-    }
-  }
 
 }

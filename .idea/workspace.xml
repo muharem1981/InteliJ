@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6cfddda-57c5-4d9f-b618-97b88abce333" name="Default" comment="use jenkins properties">
+    <list default="true" id="d6cfddda-57c5-4d9f-b618-97b88abce333" name="Default" comment="change scenarios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Google/Home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Google/Home.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Google/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Google/Search.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/YouTube/Home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/YouTube/Home.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/YouTube/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/YouTube/Search.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../common-selenium-cucumber/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,61 +65,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/YouTube/Search.feature">
+        <entry file="file://$PROJECT_DIR$/src/main/java/common/setup/RunnerHooks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="99">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-64">
+              <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/YouTube/Home.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Google/Home.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Google/Search.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/common/cucumber/IWebSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="48" column="35" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/common/setup/RunnerHooks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -145,6 +111,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="56">
               <caret line="15" column="90" selection-start-line="15" selection-start-column="90" selection-end-line="15" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/common/cucumber/IWebSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1369">
+              <caret line="145" column="13" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -245,18 +223,18 @@
         <option value="$PROJECT_DIR$/src/main/java/common/selenium/steps/WebSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/selenium/methods/WebHelp.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/steps/IWebSteps.java" />
-        <option value="$PROJECT_DIR$/src/main/java/common/cucumber/IWebSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/setup/AllURLs.java" />
         <option value="$PROJECT_DIR$/src/test/java/CukesRunTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/common/selenium/WebHelp.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/selenium/WebSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/products/YouTube/Pages/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/common/setup/RunnerHooks.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Google/Home.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Google/Search.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/YouTube/Search.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/YouTube/Home.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/common/cucumber/IWebSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/setup/RunnerHooks.java" />
       </list>
     </option>
   </component>
@@ -430,7 +408,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552469171446" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552474767170" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -481,28 +459,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: YouTube - I can find and play my music Smoke" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/YouTube/Search.feature" />
-      <option name="GLUE" value="common.setup common.cucumber" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="selenium-cucumber-tests" />
-      <option name="NAME_FILTER" value="^YouTube \- I can find and play my music Smoke$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^YouTube \- I can find and play my music Smoke$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: YouTube - I can find and play my music Smoke" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Scenario: YouTube - I can find videos with Zurich" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/YouTube/Search.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/YouTube/Home.feature" />
       <option name="GLUE" value="common.setup common.cucumber" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="selenium-cucumber-tests" />
@@ -577,14 +536,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Scenario: YouTube - I can find and play my music Smoke" />
       <item itemvalue="Maven.SmokeAll" />
       <item itemvalue="Cucumber java.Scenario: YouTube - I can find videos with Zurich" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber java.Scenario: YouTube - I can find videos with Zurich" />
-        <item itemvalue="Cucumber java.Scenario: YouTube - I can find and play my music Smoke" />
       </list>
     </recent_temporary>
   </component>
@@ -767,38 +724,66 @@
       <option name="project" value="LOCAL" />
       <updated>1552469161858</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="change scenarios">
+      <created>1552470882474</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1552470882474</updated>
+    </task>
+    <task id="LOCAL-00026" summary="try scenario.write">
+      <created>1552471118579</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1552471118579</updated>
+    </task>
+    <task id="LOCAL-00027" summary="change scenarios">
+      <created>1552471779780</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1552471779780</updated>
+    </task>
+    <task id="LOCAL-00028" summary="change scenarios">
+      <created>1552474306510</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1552474306510</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__YouTube_-_I_can_find_and_play_my_music_Smoke - 2019.03.12 at 09h 47m 51s.xml">
-      <configuration name="Scenario: YouTube - I can find and play my music Smoke" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__YouTube_-_I_can_find_and_play_my_music_Smoke - 2019.03.12 at 09h 48m 49s.xml">
-      <configuration name="Scenario: YouTube - I can find and play my music Smoke" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__YouTube_-_I_can_find_and_play_my_music_Smoke - 2019.03.12 at 09h 49m 19s.xml">
-      <configuration name="Scenario: YouTube - I can find and play my music Smoke" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__YouTube_-_I_can_find_and_play_my_music_Smoke - 2019.03.12 at 09h 54m 23s.xml">
-      <configuration name="Scenario: YouTube - I can find and play my music Smoke" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__YouTube_-_I_can_find_and_play_my_music_Smoke - 2019.03.12 at 09h 55m 13s.xml">
-      <configuration name="Scenario: YouTube - I can find and play my music Smoke" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__YouTube_-_I_can_find_videos_with_Zurich - 2019.03.12 at 15h 21m 29s.xml">
-      <configuration name="Scenario: YouTube - I can find videos with Zurich" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__YouTube_-_I_can_find_videos_with_Zurich - 2019.03.12 at 15h 22m 27s.xml">
-      <configuration name="Scenario: YouTube - I can find videos with Zurich" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__YouTube_-_I_can_find_videos_with_Zurich - 2019.03.12 at 16h 02m 37s.xml">
-      <configuration name="Scenario: YouTube - I can find videos with Zurich" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__YouTube_-_I_can_find_videos_with_Zurich - 2019.03.12 at 16h 05m 58s.xml">
-      <configuration name="Scenario: YouTube - I can find videos with Zurich" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Scenario__YouTube_-_I_can_find_videos_with_Zurich - 2019.03.12 at 16h 07m 21s.xml">
+      <configuration name="Scenario: YouTube - I can find videos with Zurich" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__YouTube_-_I_can_find_videos_with_Zurich - 2019.03.13 at 10h 57m 03s.xml">
+      <configuration name="Scenario: YouTube - I can find videos with Zurich" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__YouTube_-_I_can_find_videos_with_Zurich - 2019.03.13 at 10h 57m 56s.xml">
+      <configuration name="Scenario: YouTube - I can find videos with Zurich" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__YouTube_-_I_can_find_videos_with_Zurich - 2019.03.13 at 11h 00m 06s.xml">
+      <configuration name="Scenario: YouTube - I can find videos with Zurich" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__YouTube_-_I_can_find_videos_with_Zurich - 2019.03.13 at 11h 14m 42s.xml">
+      <configuration name="Scenario: YouTube - I can find videos with Zurich" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__YouTube_-_I_can_find_videos_with_Zurich - 2019.03.13 at 11h 15m 09s.xml">
+      <configuration name="Scenario: YouTube - I can find videos with Zurich" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__YouTube_-_I_can_find_videos_with_Zurich - 2019.03.13 at 11h 16m 26s.xml">
+      <configuration name="Scenario: YouTube - I can find videos with Zurich" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__YouTube_-_I_can_find_videos_with_Zurich - 2019.03.13 at 11h 17m 49s.xml">
+      <configuration name="Scenario: YouTube - I can find videos with Zurich" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__YouTube_-_I_can_find_videos_with_Zurich - 2019.03.13 at 11h 24m 11s.xml">
+      <configuration name="Scenario: YouTube - I can find videos with Zurich" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__YouTube_-_I_can_find_videos_with_Zurich - 2019.03.13 at 11h 24m 53s.xml">
       <configuration name="Scenario: YouTube - I can find videos with Zurich" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
@@ -813,8 +798,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4967742" visible="true" weight="0.2834008" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967742" visible="true" weight="0.2834008" />
       <window_info id="Structure" order="1" sideWeight="0.5032258" side_tool="true" weight="0.2834008" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -823,12 +809,12 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38898757" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42628774" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46181172" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.44937834" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.44937834" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.5097691" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32821497" />
@@ -917,14 +903,16 @@
     <MESSAGE value="comment test properties" />
     <MESSAGE value="comment test properties and add error message" />
     <MESSAGE value="use jenkins properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="use jenkins properties" />
+    <MESSAGE value="try scenario.write" />
+    <MESSAGE value="change scenarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="change scenarios" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/common/setup/RunnerHooks.java</url>
-          <line>39</line>
+          <line>41</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
@@ -1152,47 +1140,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/cucumber/IWebSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="48" column="35" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/selenium/WebSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="55" column="30" lean-forward="true" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/products/YouTube/Pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="15" column="90" selection-start-line="15" selection-start-column="90" selection-end-line="15" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/setup/RunnerHooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1219,8 +1170,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/YouTube/Home.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="153">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/selenium/WebSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="55" column="30" lean-forward="true" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/cucumber/IWebSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1369">
+          <caret line="145" column="13" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/setup/RunnerHooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-64">
+          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
         </state>
       </provider>
     </entry>

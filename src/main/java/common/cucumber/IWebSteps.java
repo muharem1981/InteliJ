@@ -7,8 +7,6 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import common.setup.AllProducts;
 import static common.selenium.WebSteps.*;
-import static common.setup.RunnerHooks.AssertExecutedStep;
-import static common.setup.RunnerHooks.VerifyExecutedStep;
 
 
 public class IWebSteps {
@@ -150,7 +148,28 @@ public class IWebSteps {
     public static void IStoreTheTextAsTheTextX(String text,String textX)
     {AssertExecutedStep(StoreTextAsTextX(text,textX));}
 
+    @Given("^I assert the \"([^\"]*)\" result with message \"([^\"]*)\"$")
+    public static void AssertExecutedStep(String result)
+    {
+        if (!result.toUpperCase().contains("PASS")) {
+            //RunnerHooks.scenario.write(result);
+            System.out.println(result);
+            Assert.assertTrue(false);
+        }
+        else {
+            //RunnerHooks.scenario.write(result);
+            System.out.println(result);
+        }
+    }
 
+    @Given("^I verify the \"([^\"]*)\" result with message \"([^\"]*)\"$")
+    public static void VerifyExecutedStep(String result)
+    {
+        if (!result.toUpperCase().contains("PASS")){
+            //RunnerHooks.scenario.write(result);
+            System.out.println(result);
+        }
+    }
 
 
 }
