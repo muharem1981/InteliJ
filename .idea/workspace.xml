@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d6cfddda-57c5-4d9f-b618-97b88abce333" name="Default" comment="comment test properties and add error message">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/selenium/WebHelp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/selenium/WebHelp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/selenium/WebSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/selenium/WebSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/common/setup/RunnerHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/setup/RunnerHooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/products/YouTube/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/products/YouTube/Pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/YouTube/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/YouTube/Search.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../common-selenium-cucumber/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/YouTube/Search.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            <state relative-caret-position="166">
+              <caret line="23" column="45" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -83,6 +79,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="48" column="35" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/common/setup/RunnerHooks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/products/YouTube/Pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="56">
+              <caret line="15" column="90" selection-start-line="15" selection-start-column="90" selection-end-line="15" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -216,9 +224,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/common/selenium/WebHelp.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/selenium/WebSteps.java" />
-        <option value="$PROJECT_DIR$/src/main/java/common/setup/RunnerHooks.java" />
         <option value="$PROJECT_DIR$/src/main/java/products/YouTube/Pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/YouTube/Search.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/common/setup/RunnerHooks.java" />
       </list>
     </option>
   </component>
@@ -281,6 +289,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-selenium-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-selenium-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-selenium-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-selenium-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="setup" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cucumber-selenium-tests" type="b2602c69:ProjectViewProjectNode" />
@@ -366,7 +391,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552403225529" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552410800858" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -689,7 +714,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552380663434</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="comment test properties and add error message">
+      <created>1552404366410</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1552404366410</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1101,16 +1133,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/setup/RunnerHooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/common/cucumber/IWebSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1133,15 +1155,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/YouTube/Search.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        <state relative-caret-position="166">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/products/YouTube/Pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="56">
+          <caret line="15" column="90" selection-start-line="15" selection-start-column="90" selection-end-line="15" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/setup/RunnerHooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
