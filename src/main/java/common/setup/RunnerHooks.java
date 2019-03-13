@@ -70,7 +70,7 @@ public class RunnerHooks {
 
          System.out.println("************************************************************************************\n");
 
-        IStartTheWebDriver(System.getProperty("runDriver"));
+        StartWebDriver(System.getProperty("runDriver"));
 
         System.out.println("************************************************************************************\n");
 
@@ -89,7 +89,7 @@ public class RunnerHooks {
         else{
             System.out.println("Test Passed ! \n");
         }
-        IStopTheWebDriver();
+        StopWebDriver();
         System.out.println("************************************************************************************\n");
 
 

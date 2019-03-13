@@ -12,7 +12,7 @@ Feature: YouTube Search Tests
     Then I should see the "search_result1_image"
     And I takes screenshot as "evidence1"
     Then I "select" the "search_result1_title"
-    And I wait "24" sec/s for "play"
+    And I wait "5" sec/s for "play"
 
     #And I have fun :)
 
