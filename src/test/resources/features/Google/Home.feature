@@ -3,5 +3,5 @@
 
 Feature: Google Home Tests
 
-  @Regression
+
   Scenario:Google -
