@@ -152,12 +152,12 @@ public class IWebSteps {
     public static void AssertExecutedStep(String result)
     {
         if (!result.toUpperCase().contains("PASS")) {
-            //RunnerHooks.scenario.write(result);
+            RunnerHooks.scenario.write(result);
             System.out.println(result);
             Assert.assertTrue(false);
         }
         else {
-            //RunnerHooks.scenario.write(result);
+            RunnerHooks.scenario.write(result);
             System.out.println(result);
         }
     }
