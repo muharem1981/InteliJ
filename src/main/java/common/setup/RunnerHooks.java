@@ -3,8 +3,10 @@ package common.setup;
 import cucumber.api.Scenario;
 import cucumber.api.java.Before;
 import cucumber.api.java.After;
+import cucumber.api.java.en.Given;
 
 import org.joda.time.DateTime;
+import org.junit.Assert;
 
 import static common.cucumber.IWebSteps.*;
 import static common.selenium.WebSteps.*;
@@ -20,9 +22,9 @@ public class RunnerHooks {
     public void setup(Scenario scenario) throws Exception
     {
         // local use, comment before push
-        //System.setProperty("runDriver","chrome");
-        //System.setProperty("seleniumGrid","local"); //http://192.168.1.208:32001/wd/hub
-        //System.setProperty("runEnvironment","PROD");
+        System.setProperty("runDriver","chrome");
+        System.setProperty("seleniumGrid","local"); //http://192.168.1.208:32001/wd/hub
+        System.setProperty("runEnvironment","PROD");
 
 
         this.scenario = scenario;
@@ -96,5 +98,28 @@ public class RunnerHooks {
     }
 
     //-----------------------------------------------------------------------------//
+
+  @Given("^I assert the \"([^\"]*)\" result with message \"([^\"]*)\"$")
+  public static void AssertExecutedStep(String result)
+  {
+    if (!result.toUpperCase().contains("PASS")) {
+      scenario.write(result);
+      System.out.println(result);
+      Assert.assertTrue(false);
+    }
+    else {
+      scenario.write(result);
+      System.out.println(result);
+    }
+  }
+
+  @Given("^I verify the \"([^\"]*)\" result with message \"([^\"]*)\"$")
+  public static void VerifyExecutedStep(String result)
+  {
+    if (!result.toUpperCase().contains("PASS")){
+      scenario.write(result);
+      System.out.println(result);
+    }
+  }
 
 }
