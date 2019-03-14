@@ -22,6 +22,3 @@ Feature: YouTube Search Tests
     And I should see the "menu"
     When I "click" the "menu"
     And The "menu1" element "text" should "equal" "Home"
-    And I am on the "Search" page
-
-    And I
