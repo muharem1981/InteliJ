@@ -113,12 +113,12 @@ public class IWebSteps {
     public static void IShouldNotSeeTheElement(String elementName)
     {AssertExecutedStep(ShouldNotSeeTheElement(elementName,AllProducts.getElementSelector(elementName)));}
 
-    @Given("^The \"([^\"]*)\" element \"([^\"]*)\" should be \"([^\"]*)\"$")
+    @Given("^The \"([^\"]*)\" element \"([^\"]*)\" should \"([^\"]*)\" \"([^\"]*)\"$")
     public static void TheElementTextShouldBe(String elementName, String attribute, String condition, String entry)
     {VerifyExecutedStep(WaitToAppear(elementName,AllProducts.getElementSelector(elementName)));
         AssertExecutedStep(ElementTextShouldBe(elementName,AllProducts.getElementSelector(elementName),attribute,condition,entry ));}
 
-    @Given("^The \"([^\"]*)\" element \"([^\"]*)\" should not be \"([^\"]*)\"$")
+    @Given("^The \"([^\"]*)\" element \"([^\"]*)\" should not \"([^\"]*)\" \"([^\"]*)\"$")
     public static void TheElementTextShouldNotBe(String elementName, String attribute, String condition, String entry)
     {VerifyExecutedStep(WaitToAppear(elementName,AllProducts.getElementSelector(elementName)));
         AssertExecutedStep(ElementTextShouldNotBe(elementName,AllProducts.getElementSelector(elementName),attribute,condition,entry ));}
