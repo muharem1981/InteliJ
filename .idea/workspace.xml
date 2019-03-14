@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6cfddda-57c5-4d9f-b618-97b88abce333" name="Default" comment="change scenarios and reporting">
+    <list default="true" id="d6cfddda-57c5-4d9f-b618-97b88abce333" name="Default" comment="change text assertion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/cucumber/IWebSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/cucumber/IWebSteps.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../common-selenium-cucumber/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -376,7 +375,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552569276831" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552569747278" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -734,7 +733,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552477094889</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="change text assertion">
+      <created>1552569300016</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1552569300016</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -780,7 +786,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4967742" visible="true" weight="0.2834008" />
       <window_info id="Structure" order="1" sideWeight="0.5032258" side_tool="true" weight="0.2834008" />
@@ -796,7 +801,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.44937834" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.44937834" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.5097691" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32821497" />
@@ -888,7 +893,8 @@
     <MESSAGE value="try scenario.write" />
     <MESSAGE value="change scenarios" />
     <MESSAGE value="change scenarios and reporting" />
-    <option name="LAST_COMMIT_MESSAGE" value="change scenarios and reporting" />
+    <MESSAGE value="change text assertion" />
+    <option name="LAST_COMMIT_MESSAGE" value="change text assertion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

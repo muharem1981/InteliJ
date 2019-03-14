@@ -170,7 +170,7 @@ public class WebSteps extends WebHelp {
         }
         else return "FAIL"  +" : "+ "The " + condition + " condition test of element has not been implemented" +"\n";
 
-        return result + " : " +"The " + currentText + " " + attribute + " should " + attribute + " with text " + text + " in the " + elementName + " with selector " + elementSelector +"\n";
+        return result + " : " +"The " + currentText + " " + attribute + " should " + condition + " with text " + text + " in the " + elementName + " with selector " + elementSelector +"\n";
 
     }
 
@@ -206,7 +206,7 @@ public class WebSteps extends WebHelp {
         }
         else return "FAIL" +" : "+ "The " + condition + " condition test of element has not been implemented" +"\n";
 
-        return result +" : "+"The " + currentText + " " + attribute + " should " + attribute + " with text " + text + " in the " + elementName + " with selector " + elementSelector +"\n";
+        return result +" : "+"The " + currentText + " " + attribute + " should " + condition + " with text " + text + " in the " + elementName + " with selector " + elementSelector +"\n";
 
     }
 
