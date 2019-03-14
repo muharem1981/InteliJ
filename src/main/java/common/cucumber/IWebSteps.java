@@ -148,7 +148,8 @@ public class IWebSteps {
     public static void IStoreTheTextAsTheTextX(String text,String textX)
     {AssertExecutedStep(StoreTextAsTextX(text,textX));}
 
-    @Given("^I assert the \"([^\"]*)\" result with message \"([^\"]*)\"$")
+
+
     public static void AssertExecutedStep(String result)
     {
         if (!result.toUpperCase().contains("PASS")) {
@@ -162,7 +163,6 @@ public class IWebSteps {
         }
     }
 
-    @Given("^I verify the \"([^\"]*)\" result with message \"([^\"]*)\"$")
     public static void VerifyExecutedStep(String result)
     {
         if (!result.toUpperCase().contains("PASS")){

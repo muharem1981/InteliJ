@@ -16,4 +16,12 @@ Feature: YouTube Search Tests
 
     #And I have fun :)
 
+  @Smoke
+  Scenario:YouTube - I can see the menu
+    Given I navigate to the Home page
+    And I should see the "menu"
+    When I "click" the "menu"
+    And The "menu1" element "text" should "equal" "Home"
+    And I am on the "Search" page
 
+    And I
