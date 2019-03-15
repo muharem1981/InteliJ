@@ -435,6 +435,18 @@ public class WebHelp {
         {System.out.println(ex.toString()); return  ex.toString();}
     }
 
+    public static String tryToHover(WebElement webElement)
+    {
+        try
+        {
+            Actions actions = new Actions(webDriver);
+            actions.moveToElement(webElement).click().build().perform();
+            return "PASS";
+        }
+        catch(Exception ex)
+        {System.out.println(ex.toString()); return  ex.toString();}
+    }
+
     public static String scrollAnd(String act, String elementSelector)
     {
         try
@@ -477,8 +489,8 @@ public class WebHelp {
             act = act.toUpperCase();
             WebElement webElement = webDriver.findElement(By.xpath(elementSelector));
 
-            if(act.toUpperCase().equals("FOCUS"))
-                return tryToClick(webElement);
+            if(act.toUpperCase().equals("HOVER"))
+                return tryToHover(webElement);
             if(act.toUpperCase().equals("CLICK"))
                 return tryToClick(webElement);
             else if(act.toUpperCase().equals("SELECT"))

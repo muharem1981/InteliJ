@@ -117,14 +117,23 @@ public class WebSteps extends WebHelp {
 
     public static String IntoTheElement(String act, String entry, String elementName, String elementSelector)
     {
+        if(entry.contains("CurrentDate"))
+            entry= DataHelp.getDynamicDate(entry,"yyyy-MM-dd");
+
+        if(entry.contains("TimeStamp"))
+            entry= DataHelp.getTimeStamp("yyyy-MM-dd-hh-mm-ss");
+
+        if(entry.contains("Text"))
+            entry= DataHelp.getStoredText(entry);
+
         if(elementName.contains("date"))
         {
             safeAct("select",elementSelector);
             for(int i=0;i<10;i++)
             keyActions("ArrowLeft");
-
-            entry = entry.replace("-","").replace(".","").replace("/","");
         }
+        entry = entry.replace("-","").replace(".","").replace("/","");
+
         return safeInto(act,elementSelector, entry) +" : "+ "I " + act + " the " + entry + " text into the " + elementName + " with selector " + elementSelector +"\n";
     }
 

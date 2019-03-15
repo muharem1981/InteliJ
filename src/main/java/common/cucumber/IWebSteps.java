@@ -11,11 +11,11 @@ import static common.selenium.WebSteps.*;
 
 public class IWebSteps {
 
-    @Given("^I start the WebDriver with the \"([^\"]*)\" browser$")
+
     public static void IStartTheWebDriver(String driver)
     {AssertExecutedStep(StartWebDriver(driver));}
 
-    @Given("^I stop the WebDriver$")
+
     public static void IStopTheWebDriver()
     {AssertExecutedStep(StopWebDriver());}
 
@@ -144,10 +144,9 @@ public class IWebSteps {
     {VerifyExecutedStep(WaitToAppear(elementName,AllProducts.getElementSelector(elementName)));
         AssertExecutedStep(StoreElementTextAsTextX(elementName,AllProducts.getElementSelector(elementName),attribute,textX));}
 
-    @Given("^I store the \"([^\"]*)\" text as \"([^\"]*)\"$")
+
     public static void IStoreTheTextAsTheTextX(String text,String textX)
     {AssertExecutedStep(StoreTextAsTextX(text,textX));}
-
 
 
     public static void AssertExecutedStep(String result)
