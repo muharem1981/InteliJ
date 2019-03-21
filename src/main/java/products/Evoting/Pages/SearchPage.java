@@ -1,8 +1,8 @@
-package products.YouTube.Pages;
+package products.Evoting.Pages;
 
 import java.util.HashMap;
 
-public class HomePage {
+public class SearchPage {
 
     public static HashMap<String, String> elementLocators = new HashMap<String, String>();
 
@@ -11,16 +11,6 @@ public class HomePage {
         elementLocators.put("search_field", "//*[@id=\"search\"]");
         elementLocators.put("search_submit", "//*[@id=\"search-icon-legacy\"]");
         elementLocators.put("search_result1_image", "//*[@id=\"img\"]");
-        elementLocators.put("search_result1_title", "//*[@id=\"video-title\"]");
-
-        elementLocators.put("search_result_2_title", "//*[contains(text(),'TOP 6 Things To Do')]");
-
-        elementLocators.put("menu", "//div[@id='container']//yt-icon[@id='guide-icon']");
-
-        elementLocators.put("menu1", "//span[contains(text(),'Home')]");
-
-        elementLocators.put("", "");
-        elementLocators.put("", "");
         elementLocators.put("", "");
     }
 

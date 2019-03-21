@@ -25,4 +25,14 @@ public class AllPages {
     }
 
 
+    public static String getEvotingElementSelector(String elementName)
+    {
+        if(System.getProperty("activePage").equals("Home"))
+            return products.Evoting.Pages.HomePage.getElementSelector(elementName);
+        else if(System.getProperty("activePage").equals("Search"))
+            return products.Evoting.Pages.SearchPage.getElementSelector(elementName);
+        else {System.out.println( System.getProperty("product") + " " + System.getProperty("activePage") +
+                                  " Page has not been defined in the AllPages");
+            return "";}
+    }
 }

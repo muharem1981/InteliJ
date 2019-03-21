@@ -10,6 +10,8 @@ public class AllProducts {
             return getYouTubeElementSelector(elementName);
         else if(System.getProperty("product").equals("Google"))
             return getGoogleElementSelector(elementName);
+        else if(System.getProperty("product").equals("Evoting"))
+            return getEvotingElementSelector(elementName);
         else {System.out.println("Product has not been defined in AllProducts");
             return "";}
     }
